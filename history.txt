@@ -1,0 +1,879 @@
+  997  pip install python-social-auth
+  998  service apache2 restart
+  999  nano djnro/djnro/local_settings.py
+ 1000  nano /etc/ssh/sshd_config 
+ 1002  service sshd restart
+ 1004  nano djnro/djnro/local_settings.py
+ 1005  nano djnro/djnro/settings.py 
+ 1007  service apache2 restart
+ 1018  less /var/mail/bdren 
+ 1023  service mysql restart
+ 1024  service exim4 restart
+ 1025  service shibd restart
+ 1026  service apache2 restart
+ 1033  less /var/log/apache2/error.log
+ 1062  cd djnro/
+ 1063  ./manage.py migrate
+ 1064  source wsgi_venv/bin/activate
+ 1065  ./manage.py migrate
+ 1066  ./manage.py collecstatic
+ 1067  ./manage.py collecstatics
+ 1068  ./manage.py collectstatic
+ 1069  ./manage.py fetch_kml
+ 1077  pip install python-jose
+ 1080  pip install django-google-maps
+ 1082  nano test.py 
+ 1083  python test.py 
+ 1108  nano models.py 
+ 1109  locate admin.py
+ 1110  cd..
+ 1111  cd ..
+ 1112  nano edumanage/admin.py 
+ 1113  nano accounts/admin.py 
+ 1114  nano edumanage/admin.py 
+ 1115  cat edumanage/admin.py | grep ModelAdmin
+ 1116  cat accounts/admin.py | grep ModelAdmin
+ 1117  nano accounts/admin.py 
+ 1118  service apache2 restart
+ 1132  source djnro/wsgi_venv/bin/activate
+ 1140  deactivate 
+ 1148  ./manage.py migrate
+ 1149  ./manage.py collectstatic
+ 1152  ./manage.py check
+ 1160  ./manage.py fetch_kml
+ 1161  service apache2 restart
+ 1162  nano djnro/local_settings.py
+ 1163  service apache2 restart
+ 1164  nano djnro/local_settings.py
+ 1165  service apache2 restart
+ 1166  ./manage.py fetch_kml
+ 1167  service apache2 restart
+ 1168  nano accounts/admin.py 
+ 1169  service apache2 restart
+ 1170  ./manage.py fetch_kml
+ 1171  service apache2 restart
+ 1172  nano accounts/admin.py 
+ 1173  service apache2 restart
+ 1174  less /var/log/apache2/error.log
+ 1175  nano accounts/admin.py 
+ 1176  service apache2 restart
+ 1177  less /var/log/apache2/error.log
+ 1178  nano accounts/admin.py 
+ 1179  service apache2 restart
+ 1180  less /var/log/apache2/error.log
+ 1181  pip install json
+ 1182  pip install simplejson
+ 1183  nano accounts/admin.py 
+ 1184  service apache2 restart
+ 1185  ./manage.py fetch_kml
+ 1186  service apache2 restart
+ 1187  ./manage.py collectstatic
+ 1188  service apache2 restart
+ 1189  shutdown -r now
+ 1190  source djnro/wsgi_venv/bin/activate
+ 1191  cd djnro/
+ 1192  ls
+ 1193  cd djnro/
+ 1194  ls
+ 1195  nano urls.py 
+ 1196  cd ..
+ 1197  nano accounts/admin.py 
+ 1198  locate admin.py
+ 1199  nano /home/bdren/djnro/edumanage/admin.py
+ 1200  service apache2 restart
+ 1201  nano djnro/urls.py 
+ 1202  nano /etc/apache2/sites-enabled/eduroam.conf 
+ 1203  cd /etc/apache2/sites-available/
+ 1204  ls
+ 1205  nano 000-default.conf 
+ 1206  cp 000-default.conf 000-default.conf.bk
+ 1207  ls
+ 1208  nano 000-default.conf
+ 1209  a2ensite 000-default.conf
+ 1210  service apache2 restart
+ 1211  exit
+ 1212  service mysql restart
+ 1213  service apache2 restart
+ 1214  source djnro/wsgi_venv/bin/activate
+ 1215  nano djnro/djnro/local_settings.py
+ 1216  service apache2 restart
+ 1217  exit
+ 1218  nano djnro/djnro/local_settings.py
+ 1219  service apache2 restart
+ 1220  source djnro/wsgi_venv/bin/activate
+ 1221  exit
+ 1222  nano djnro/djnro/local_settings.py
+ 1223  nano djnro/djnro/settings.py 
+ 1224  nano djnro/djnro/local_settings.py
+ 1225  nano djnro/djnro/settings.py 
+ 1226  less /var/mail/bdren 
+ 1227  nano djnro/djnro/local_settings.py
+ 1228  less /var/mail/bdren 
+ 1229  nano djnro/djnro/settings.py 
+ 1230  nano djnro/djnro/local_settings.py
+ 1231  service apache2 restart
+ 1232  less /var/mail/bdren 
+ 1233  nano djnro/djnro/local_settings.py
+ 1234  service apache2 restart
+ 1235  dpkg-reconfigure exim4
+ 1236  dpkg-reconfigure exim4-config
+ 1237  service exim4 restart
+ 1238  telnet localhost 25
+ 1239  telnet 103.28.121.26 25
+ 1240  ufw status
+ 1241  dpkg-reconfigure exim4-config
+ 1242  echo "This is a test." | mail -s Testing jamil@bdren.net.bd
+ 1243  ls
+ 1244  less /var/log/exim4/mainlog
+ 1245  nano /etc/exim4/update-exim4.conf.conf 
+ 1246  nano djnro/djnro/local_settings.py
+ 1247  service apache2 restart
+ 1248  service exim4 restart
+ 1249  less /var/log/exim4/mainlog
+ 1250  telnet 103.28.121.20 smtp
+ 1251  service exim4 restart
+ 1252  less /var/log/exim4/mainlog
+ 1253  less /var/log/exim4/rejectlog
+ 1254  nano djnro/djnro/local_settings.py
+ 1255  echo "This is a test." | mail -s Testing jamilurrahman12@gmail.com
+ 1256  less /var/log/exim4/mainlog
+ 1257  nano /etc/exim4/update-exim4.conf.conf 
+ 1258  service exim4 restart
+ 1259  less /var/log/exim4/mainlog
+ 1260  less /var/log/exim4/rejectlog
+ 1261  less /var/log/exim4/mainlog
+ 1262  update-exim4.conf
+ 1263  service exim4 restart
+ 1264  less /var/log/exim4/mainlog
+ 1265  nano djnro/djnro/local_settings.py
+ 1266  service exim4 restart
+ 1267  service apache2 restart
+ 1268  less /var/log/exim4/mainlog
+ 1269  nano djnro/djnro/settings.py 
+ 1270  service apache2 restart
+ 1271  less /var/log/exim4/mainlog
+ 1272  service apache2 restart
+ 1273  service exim4 restart
+ 1274  less /var/log/exim4/mainlog
+ 1275  less /var/log/apache2/error.log
+ 1276  less /var/log/exim4/mainlog
+ 1277  nano djnro/djnro/settings.py 
+ 1278  nano djnro/djnro/local_settings.py
+ 1279  service apache2 restart
+ 1280  service exim4 restart
+ 1281  less /var/log/exim4/mainlog
+ 1282  less /var/log/exim4/rejectlog
+ 1283  ls
+ 1284  cd ..
+ 1285  ls
+ 1286  cd bdren/
+ 1287  adduser mailadmin
+ 1288  nano djnro/djnro/settings.py 
+ 1289  service apache2 restart
+ 1290  ls
+ 1291  cd ..
+ 1292  ls
+ 1293  cd mailadmin/
+ 1294  ls
+ 1295  cd ..
+ 1296  cd bdren/
+ 1297  less /var/log/exim4/mainlog
+ 1298  less /var/log/mail.log
+ 1299  less /var/log/exim4/paniclog 
+ 1300  less /var/log/exim4/rejectlog
+ 1301  echo "This is a test." | mail -s Testing mailadmin@eduroam.bdren.net.bd
+ 1302  ls
+ 1303  cd ..
+ 1304  cd mailadmin/
+ 1305  ls
+ 1306  cd Maildir/new/
+ 1307  ls
+ 1308  nano 1610388056.H966460P14098.eduroam.bdren.net.bd 
+ 1309  cd ..
+ 1310  cd bdren/
+ 1311  nano djnro/djnro/settings.py 
+ 1312  cd djnro/djnro/
+ 1313  ls
+ 1314  nano test.py
+ 1315  python test.py 
+ 1316  python3 test.py 
+ 1317  mv test.py ../
+ 1318  ls
+ 1319  cd ..
+ 1320  ls
+ 1321  nano test.py 
+ 1322  python3 test.py 
+ 1323  nano test.py 
+ 1324  source wsgi_venv/bin/activate
+ 1325  python3 test.py 
+ 1326  ./manage.py check
+ 1327  cd ..
+ 1328  cd mailadmin/
+ 1329  ls
+ 1330  cd Maildir/
+ 1331  ls
+ 1332  cd new/
+ 1333  ls
+ 1334  nano /etc/exim4/update-exim4.conf.conf 
+ 1335  update-exim4.conf
+ 1336  service exim4 restart
+ 1337  ls
+ 1338  service apache2 restart
+ 1339  less /var/log/exim4/mainlog
+ 1340  ls
+ 1341  cd ..
+ 1342  cd bdren/
+ 1343  ls
+ 1344  nano djnro/djnro/settings.py 
+ 1345  nano djnro/djnro/urls.py 
+ 1346  nano djnro/accounts/views.py 
+ 1347  nano djnro/accounts/views.py 
+ 1348  nano djnro/djnro/settings.py 
+ 1349  nano djnro/djnro/local_settings.py
+ 1350  cd djnro/
+ 1351  ./manage.py check
+ 1352  source wsgi_venv/bin/activate
+ 1353  ./manage.py check
+ 1354  ./manage.py migrate
+ 1355  ./manage.py collectstatics
+ 1356  ./manage.py collectstatic
+ 1357  service apache2 restart
+ 1358  less /var/mail/bdren 
+ 1359  date
+ 1360  less /var/mail/bdren 
+ 1361  less /var/log/apache2/error.log
+ 1362  nano /etc/apache2/sites-enabled/eduroam.conf 
+ 1363  service apache2 restart
+ 1364  less /var/log/apache2/error.log
+ 1365  less /var/mail/bdren 
+ 1366  nano djnro/local_settings.py
+ 1367  service apache2 restart
+ 1368  less /var/mail/bdren 
+ 1369  less /var/log/exim4/mainlog
+ 1370  service exim4 restart
+ 1371  service mysql restart
+ 1372  less /var/log/exim4/mainlog
+ 1373  less /var/mail/bdren 
+ 1374  cd
+ 1375  cd /home/
+ 1376  ls
+ 1377  cd mailadmin/
+ 1378  ls
+ 1379  cd ..
+ 1380  cd bdren/
+ 1381  less /var/mail/bdren 
+ 1382  nano djnro/djnro/settings.py 
+ 1383  less /var/mail/bdren 
+ 1384  nano djnro/djnro/settings.py 
+ 1385  service apache2 restart
+ 1386  less /var/mail/bdren 
+ 1387  less /var/log/apache2/error.log
+ 1388  nano djnro/djnro/settings.py 
+ 1389  service apache2 restart
+ 1390  less /var/log/apache2/error.log
+ 1391  less /var/mail/bdren 
+ 1392  less /var/log/exim4/mainlog
+ 1393  dpkg-reconfigure exim4-config
+ 1394  service exim4 restart
+ 1395  service apache2 restart
+ 1396  less /var/log/apache2/error.log
+ 1397  less /var/log/exim4/mainlog
+ 1398  less /var/mail/bdren 
+ 1399  history
+ 1400  echo “This is test mail from my machine .” | mail -s Testing jamil@eduroam.bdren.net.bd
+ 1401  less /var/mail/bdren 
+ 1402  service exim4 restart
+ 1403  service apache2 restart
+ 1404  cd
+ 1405  cd /home/
+ 1406  ls
+ 1407  cd mailadmin/
+ 1408  cd Maildir/new/
+ 1409  ls
+ 1410  cd /home/bdren/
+ 1411  nano djnro/djnro/local_settings.py
+ 1412  service apache2 restart
+ 1413  less /var/mail/bdren 
+ 1414  nano djnro/djnro/settings.py 
+ 1415  nano djnro/djnro/local_settings.py
+ 1416  nano djnro/djnro/templates/front/connect.html 
+ 1417  nano djnro/djnro/local_settings.py
+ 1418  service apache2 restart
+ 1419  nano djnro/djnro/local_settings.py
+ 1420  nano djnro/djnro/settings.py 
+ 1421  nano djnro/djnro/local_settings.py
+ 1422  service apache2 restart
+ 1423  less /var/mail/bdren 
+ 1424  less /var/log/apache2/error.log
+ 1425  less /var/mail/bdren 
+ 1426  service exim4 restart
+ 1427  less /var/mail/bdren 
+ 1428  ls
+ 1429  nano djnro/djnro/local_settings.py
+ 1430  service apache2 restart
+ 1431  less /var/log/apache2/error.log
+ 1432  less /var/mail/bdren 
+ 1433  nano /etc/exim4/update-exim4.conf.conf 
+ 1434  update-exim4.conf
+ 1435  service exim4 restart
+ 1436  less /var/mail/bdren 
+ 1437  nano /etc/exim4/update-exim4.conf.conf 
+ 1438  update-exim4.conf
+ 1439  systemctl restart exim4
+ 1440  less /var/mail/bdren 
+ 1441  less /var/log/exim4/mainlog
+ 1442  nano /etc/exim4/update-exim4.conf.conf 
+ 1443  update-exim4.conf
+ 1444  systemctl restart exim4
+ 1445  nano djnro/djnro/local_settings.py
+ 1446  nano djnro/djnro/settings.py 
+ 1447  service apache2 restart
+ 1448  nano djnro/djnro/local_settings.py
+ 1449  nano djnro/djnro/settings.py 
+ 1450  service apache2 restart
+ 1451  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1452  python3 /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1453  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1454  python3 /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1455  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1456  python3 /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1457  service apache2 restart
+ 1458  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1459  python3 /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1460  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1461  python3 /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1462  service apache2 restart
+ 1463  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1464  python3 /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1465  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1466  python3 /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1467  service apache2 restart
+ 1468  nano djnro/djnro/settings.py 
+ 1469  service apache2 restart
+ 1470  nano djnro/djnro/settings.py 
+ 1471  locate pipeline.py
+ 1472  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social_core/tests/pipeli                                       ne.py
+ 1473  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social_core/tests/pipeline.py
+ 1474  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/tests/pipeline.py 
+ 1475  nano djnro/djnro/local_settings.py
+ 1476  nano djnro/wsgi_venv/lib/python3.5/site-packages/social_core/pipeline/social_auth.py 
+ 1477  cd djnro/wsgi_venv/lib/python3.5/site-packages/social_core/backends/
+ 1478  ls
+ 1479  nano yahoo.py 
+ 1480  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1481  cd ..
+ 1482  ls
+ 1483  cd backends/
+ 1484  ls
+ 1485  nano open_id_connect.py 
+ 1486  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1487  service apache2 stop
+ 1488  service apache2 start
+ 1489  less /var/mail/bdren 
+ 1490  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1491  cp /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py test.py
+ 1492  nano test.py 
+ 1493  python3 test.py 
+ 1494  source /home/bdren/djnro/wsgi_venv/bin/activate
+ 1495  python3 test.py 
+ 1496  nano test.py 
+ 1497  python3 test.py 
+ 1498  ls
+ 1499  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1500  pip install python-openid
+ 1501  ls
+ 1502  nano open_id.py 
+ 1503  service apache2 restart
+ 1504  less /var/log/apache2/error.log
+ 1505  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social/backends/open_id.py
+ 1506  pip uninstall python-openid
+ 1507  service apache2 restart
+ 1508  less /var/log/apache2/error.log
+ 1509  pip uninstall python-openid
+ 1510  pip uninstall python3-openid
+ 1511  service apache2 restart
+ 1512  ls
+ 1513  cd ..
+ 1514  cd social/backends/
+ 1515  ls
+ 1516  nano open_id.py 
+ 1517  ls
+ 1518  nano open_id.py 
+ 1519  python3 open_id.py 
+ 1520  nano open_id.py 
+ 1521  python3 open_id.py 
+ 1522  service apache2 restart
+ 1523  nano open_id.py 
+ 1524  python3 open_id.py 
+ 1525  service apache2 restart
+ 1526  nano open_id.py 
+ 1527  cd ..
+ 1528  cd social_core/backends/open_id.py 
+ 1529  nano social_core/backends/open_id.py 
+ 1530  service apache2 restart
+ 1531  nano social_core/backends/open_id.py 
+ 1532  nano open_id.py 
+ 1533  cd social/backends/
+ 1534  nano open_id.py 
+ 1535  service apache2 restart
+ 1536  cd /home/bdren/djnro/
+ 1537  nano djnro/local_settings.py
+ 1538  nano djnro/settings.py 
+ 1539  service apache2 restart
+ 1540  nano djnro/settings.py 
+ 1541  ./manage.py migrate
+ 1542  service apache2 restart
+ 1543  exit
+ 1544  nano djnro/djnro/local_settings.py
+ 1545  service apache2 restart
+ 1546  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1547  nano /etc/apache2/sites-enabled/eduroam.conf 
+ 1548  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1549  service apache2 restart
+ 1550  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1551  service apache2 restart
+ 1552  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1553  service apache2 restart
+ 1554  nano /etc/apache2/sites-enabled/eduroam.conf 
+ 1555  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1556  service apache2 restart
+ 1557  service apache2 status
+ 1558  less /var/log/apache2/error.log
+ 1559  ll /home/bdren/djnro/
+ 1560  nano /etc/apache2/sites-enabled/eduroam.conf 
+ 1561  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1562  nano /etc/apache2/apache2.conf
+ 1563  service apache2 restart
+ 1564  nano /etc/apache2/sites-enabled/eduroam.conf 
+ 1565  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1566  service apache2 restart
+ 1567  journalctl -xe
+ 1568  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1569  service apache2 restart
+ 1570  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1571  service apache2 restart
+ 1572  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1573  service apache2 restart
+ 1574  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1575  service apache2 restart
+ 1576  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1577  service apache2 restart
+ 1578  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1579  service apache2 restart
+ 1580  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1581  service apache2 restart
+ 1582  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1583  service apache2 restart
+ 1584  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1585  service apache2 restart
+ 1586  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1587  service apache2 restart
+ 1588  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1589  service apache2 restart
+ 1590  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1591  service apache2 restart
+ 1592  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1593  service apache2 restart
+ 1594  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1595  service apache2 restart
+ 1596  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1597  service apache2 restart
+ 1598  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1599  service apache2 restart
+ 1600  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1601  service apache2 restart
+ 1602  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1603  service apache2 restart
+ 1604  nano /etc/apache2/sites-enabled/000-default.conf 
+ 1605  nano djnro/djnro/urls.py 
+ 1606  cd djnro/
+ 1607  source wsgi_venv/bin/activate
+ 1608  ./manage.py contacts
+ 1609  deactivate 
+ 1610  ./manage.py contacts
+ 1611  python3 manage.py contacts
+ 1612  source wsgi_venv/bin/activate
+ 1613  ./manage.py contacts
+ 1614  service mysql restart
+ 1615  ./manage.py migrate
+ 1616  ./manage.py collectstatics
+ 1617  ./manage.py collectstatic
+ 1618  ./manage.py contacts
+ 1619  mysql -u djnro -p
+ 1620  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py
+ 1621  ./manage.py dbsync
+ 1622  ./manage.py help
+ 1623  ./manage.py dbshell
+ 1624  ./manage.py inspectdb
+ 1625  ./manage.py help
+ 1626  ./manage.py check
+ 1627  ./manage.py createcachetable
+ 1628  ./manage.py diffsettings
+ 1629  ./manage.py help
+ 1630  ./manage.py loaddata
+ 1631  ./manage.py makemigrations
+ 1632  ./manage.py shell
+ 1633  ./manage.py showmigrations
+ 1634  ./manage.py sqlmigrate
+ 1635  ./manage.py startapp
+ 1636  ./manage.py startproject
+ 1637  ./manage.py fetch_kml
+ 1638  ./manage.py help
+ 1639  ./manage.py 
+ 1640  ./manage.py contacts
+ 1641  ./manage.py servdata
+ 1642  ./manage.py servdata --output=json
+ 1643  pip install python3-mako
+ 1644  pip install python-mako
+ 1645  pip install Mako
+ 1646  apt update
+ 1647  apt install -y python-mako
+ 1648  apt install -y python-markupsafe
+ 1649  deactivate 
+ 1650  apt install -y python-markupsafe
+ 1651  apt install -y python-mako python-markupsafe
+ 1652  ./manage.py contacts --mail-list
+ 1653  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py
+ 1654  apt install memcached
+ 1655  apt update
+ 1656  apt install memcached
+ 1657  cd /usr/bin/
+ 1658  ls
+ 1659  nano pycompile 
+ 1660  apt install memcached
+ 1661  nano pycompile 
+ 1662  nano /var/lib/dpkg/info/python-markupsafe.postinst 
+ 1663  apt install memcached
+ 1664  nano /var/lib/dpkg/info/python-mako.postinst
+ 1665  apt install memcached
+ 1666  apt install python-mako
+ 1667  apt update
+ 1668  apt install memcached
+ 1669  cd /home/bdren/djnro/
+ 1670  ./manage.py contacts
+ 1671  service apache2 restart
+ 1672  ./manage.py help
+ 1673  ./manage.py help
+ 1674  ./manage.py runmodwsgi
+ 1675  cd /tmp/
+ 1676  ls
+ 1677  rm *
+ 1678  rm -r *
+ 1679  ls
+ 1680  ./manage.py runmodwsgi
+ 1681  cd /home/bdren/djnro/
+ 1682  ./manage.py runmodwsgi
+ 1683  ./manage.py help
+ 1684  ./manage.py clearsessions
+ 1685  ./manage.py findstatic
+ 1686  ./manage.py runserver
+ 1687  nano djnro/local_settings.py
+ 1688  nano djnro/local_settings.py.dist 
+ 1689  nano djnro/settings.py 
+ 1690  nano djnro/local_settings.py
+ 1691  service apache2 restart
+ 1692  ./manage.py contacts
+ 1693  pip install social_auth
+ 1694  pip install python-social-auth 
+ 1695  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social_core/utils.py
+ 1696  pip install python-social-auth
+ 1697  nano djnro/settings.py 
+ 1698  service apache2 restart
+ 1699  nano djnro/local_settings.py
+ 1700  service apache2 restart
+ 1701  service exim4 stop
+ 1702  nano djnro/local_settings.py
+ 1703  service apache2 restart
+ 1704  less /var/mail/bdren 
+ 1705  ./manage.py makemigration
+ 1706  ./manage.py makemigrations
+ 1707  ./manage.py migrate
+ 1708  ./manage.py contacts
+ 1709  service mysql restart
+ 1710  ./manage.py contacts
+ 1711  service exim4 start
+ 1712  less /var/mail/bdren 
+ 1713  service exim4 statu
+ 1714  service mysql restart
+ 1715  service apache2 restart
+ 1716  ./manage.py contacts
+ 1717  ./manage.py help
+ 1718  pip install Mako 
+ 1719  nano docs/index.md 
+ 1720  nano docs/installation/install.md 
+ 1721  ./manage.py servdata
+ 1722  nano extras/servdata_consumer.py
+ 1723  locate mako
+ 1724  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/mako/template.py
+ 1725  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/mako/util.py
+ 1726  nano /home/bdren/djnro/wsgi_venv/lib/python3.5/site-packages/social_core/backends/open_id.py
+ 1727  service apache2 restart
+ 1728  nano djnro/local_settings.py
+ 1729  nano djnro/settings.py 
+ 1730  service apache2 restart
+ 1731  exit
+ 1732  history
+ 1733  cd djnro/
+ 1734  source wsgi_venv/bin/activate
+ 1735  ./manage.py servdata
+ 1736  exit
+ 1737  cd djnro/
+ 1738  source wsgi_venv/bin/activate
+ 1739  ./manage.py migrate
+ 1740  ./manage.py collectstatic
+ 1741  history
+ 1742  ./manage.py fetch_kml
+ 1743  exit
+ 1744  service apache2 restart
+ 1745  less /var/log/apache2/error.log
+ 1746  cd djnro/djnro/
+ 1747  nano local_settings.py
+ 1748  ls
+ 1749  cd ..
+ 1750  ls
+ 1751  cd extras/
+ 1752  ls
+ 1753  cd ..
+ 1754  cd front/
+ 1755  ls
+ 1756  nano models.py 
+ 1757  ls
+ 1758  cd ..
+ 1759  ls
+ 1760  cd accounts/
+ 1761  ls
+ 1762  nano admin.py 
+ 1763  ls
+ 1764  nano models.py 
+ 1765  nano views.py 
+ 1766  ls
+ 1767  cd ..
+ 1768  ls
+ 1769  cd djnro/
+ 1770  ls
+ 1771  nano static/js/geolocate.js 
+ 1772  service apache2 restart
+ 1773  nano static/js/geolocate.js 
+ 1774  service apache2 restart
+ 1775  telnet 10.10.100.101 25
+ 1776  ping 10.10.100.101
+ 1777  telnet 10.10.100.101 25
+ 1778  exit
+ 1779  cd /etc/apache2/
+ 1780  ls
+ 1781  cd sites-enabled/
+ 1782  ls
+ 1783  nano eduroam.conf 
+ 1784  nano 000-default.conf 
+ 1785  exit
+ 1786  cd
+ 1787  less /var/log/letsencrypt/letsencrypt.log
+ 1788  nano /etc/apache2/sites-enabled/eduroam.conf 
+ 1789  history | grep lets
+ 1790  history | grep cert
+ 1791  history
+ 1792  certbot renew
+ 1793  ls
+ 1794  history > 1.txt
+ 1795  cat 1.txt | grep cert
+ 1796  cat 1.txt | grep lets
+ 1797  cd
+ 1798  nano /etc/letsencrypt/renewal/eduroam.bdren.net.bd.conf 
+ 1799  cat /var/log/letsencrypt/letsencrypt.log
+ 1800  certbot certificates
+ 1801  ./certbot-auto renew
+ 1802  apt-get install software-properties-common python-software-properties
+ 1803  add-apt-repository ppa:certbot/certbot
+ 1804  apt-get update
+ 1805  apt-get install python-certbot-apache
+ 1806  /usr/bin/letsencrypt renew
+ 1807  locate letscrypt
+ 1808  exit
+ 1809  nano /etc/ssh/sshd_config 
+ 1810  service sshd restart
+ 1811  less /var/log/letsencrypt/letsencrypt.log
+ 1812  cat /var/log/letsencrypt/letsencrypt.log
+ 1813  cat /var/log/letsencrypt/letsencrypt.log.12.gz 
+ 1814  clear
+ 1815  more /var/log/letsencrypt/letsencrypt.log.12.gz 
+ 1816  ls
+ 1817  hsitory
+ 1818  history
+ 1819  nano /etc/letsencrypt/renewal/eduroam.bdren.net.bd.conf
+ 1820  cd /etc/letsencrypt/
+ 1821  ls
+ 1822  apt install certbot
+ 1823  deactivate
+ 1824  apt install certbot
+ 1825  apt install python-certbot-apache
+ 1826  systemctl status certbot.timer
+ 1827  systemctl restart certbot.timer
+ 1828  systemctl status certbot.timer
+ 1829  certbot renew
+ 1830  ufw status
+ 1831  ping bbc.com
+ 1832  nano /etc/network/interfaces
+ 1833  cat /var/log/letsencrypt/letsencrypt.log
+ 1834  shutdown -r now
+ 1835  certbot renew --dry-run
+ 1836  dig eduroam.bdren.net.bd A
+ 1837  dig eduroam.bdren.net.bd AAAA
+ 1838  dig eduroam.bdren.net.bd MX
+ 1839  ufw status
+ 1840  cd
+ 1841  ufw status
+ 1842  iptables -L
+ 1843  less /var/log/letsencrypt/letsencrypt.log
+ 1844  certbot --version
+ 1845  vi /etc/apache2/sites-enabled/000-default.conf 
+ 1846  service apache2 restart
+ 1847  certbot renew --dry-run
+ 1848  less /var/log/letsencrypt/letsencrypt.log
+ 1849  vi /etc/apache2/sites-enabled/000-default.conf 
+ 1850  service apache2 restart
+ 1851  certbot renew
+ 1852  shutdown -r now
+ 1853  certbot renew
+ 1854  vi /etc/apache2/sites-enabled/000-default.conf 
+ 1855  vi /etc/apache2/sites-enabled/eduroam.conf 
+ 1856  service apache2 restart
+ 1857  dmesg
+ 1858  less /var/log/syslog
+ 1859  less /var/log/apache2/other_vhosts_access.log
+ 1860  less /var/log/apache2/error.log
+ 1861  less /var/log/lastlog 
+ 1862  top
+ 1863  service memcached status
+ 1864  tail /var/log/lastlog -f
+ 1865  nano /etc/ssh/sshd_config 
+ 1866  cat /etc/ssh/sshd_config | grep AllowUsers
+ 1867  nano /etc/ssh/sshd_config 
+ 1868  visudo 
+ 1869  cd
+ 1870  cd /tmp/
+ 1871  ls
+ 1872  rm systemd-private-d158f1016bca44d197617402a4797118-systemd-timesyncd.service-i8WeRz/
+ 1873  cd systemd-private-d158f1016bca44d197617402a4797118-systemd-timesyncd.service-i8WeRz/tmp/
+ 1874  ls
+ 1875  cd
+ 1876  rm -rf /tmp/systemd-private-d158f1016bca44d197617402a4797118-systemd-timesyncd.service-i8WeRz/
+ 1877  cd /tmp/
+ 1878  ls
+ 1879  cd
+ 1880  passwd bdren
+ 1881  shutdown -r now
+ 1882  ss -tulw
+ 1883  cd /tmp/
+ 1884  ls
+ 1885  rm systemd-private-64616c64b8624ca380f5fb9ee98b8ae6-systemd-timesyncd.service-FWzcV3
+ 1886  rm -rf systemd-private-64616c64b8624ca380f5fb9ee98b8ae6-systemd-timesyncd.service-FWzcV3
+ 1887  ls
+ 1888  cd
+ 1889  cd /tmp/
+ 1890  ls
+ 1891  cd
+ 1892  top
+ 1893  certbot renew
+ 1894  crontab -l
+ 1895  exit
+ 1896  history
+ 1897  ufw status
+ 1898  ss -tulw
+ 1899  ufw enable
+ 1900  cd djnro/djnro/
+ 1901  cd ..
+ 1902  source wsgi_venv/bin/activate
+ 1903  nano djnro/local_settings.py
+ 1904  ./manage.py check
+ 1905  nano djnro/local_settings.py
+ 1906  ./manage.py check
+ 1907  nano djnro/local_settings.py
+ 1908  ./manage.py check
+ 1909  nano djnro/local_settings.py
+ 1910  ./manage.py check
+ 1911  nano djnro/local_settings.py
+ 1912  ./manage.py check
+ 1913  nano djnro/local_settings.py
+ 1914  ./manage.py check
+ 1915  nano djnro/local_settings.py
+ 1916  ./manage.py check
+ 1917  nano djnro/local_settings.py
+ 1918  ./manage.py check
+ 1919  nano djnro/local_settings.py
+ 1920  cd djnro/
+ 1921  ls
+ 1922  nano urlsextra.py
+ 1923  ls
+ 1924  cd ..
+ 1925  cd edumanage/
+ 1926  ls
+ 1927  nano viewsextra.py
+ 1928  nano decoratorsextra.py
+ 1929  cd ..
+ 1930  ./manage.py check
+ 1931  nano edumanage/viewsextra.py 
+ 1932  rm edumanage/viewsextra.py 
+ 1933  nano edumanage/viewsextra.py 
+ 1934  ./manage.py check
+ 1935  service apache2 restart
+ 1936  nano djnro/local_settings.py
+ 1937  ./manage.py check
+ 1938  nano djnro/local_settings.py
+ 1939  ./manage.py check
+ 1940  nano djnro/local_settings.py
+ 1941  ./manage.py check
+ 1942  service apache2 restart
+ 1943  mkdir djnro/templates/exports/
+ 1944  nano djnro/templates/exports/icinga2.conf
+ 1945  nano djnro/templates/exports/icinga2_contacts.conf
+ 1946  nano djnro/templates/exports/icinga2_host.conf
+ 1947  nano djnro/templates/exports/radsecproxy-blacklist.conf
+ 1948  nano djnro/templates/exports/radsecproxy-pre.conf
+ 1949  nano djnro/templates/exports/radsecproxy-tlr.conf
+ 1950  nano djnro/templates/exports/radsecproxy.conf
+ 1951  ./manage.py check
+ 1952  service apache2 restart
+ 1953  nano edumanage/templatetags/addstr.py
+ 1954  nano edumanage/templatetags/icingaescape.py
+ 1955  nano edumanage/templatetags/instserver2contacts.py
+ 1956  nano edumanage/templatetags/instserver2instrealmmon.py
+ 1957  nano edumanage/templatetags/server2ipv4addr.py
+ 1958  nano edumanage/templatetags/server2ipv6addr.py
+ 1959  cd edumanage/management/commands/
+ 1960  ls
+ 1961  nano monconf.py
+ 1962  ls
+ 1963  cd ..
+ 1964  ./manage.py check
+ 1965  service apache2 restart
+ 1966  nano djnro/local_settings.py
+ 1967  ./manage.py check
+ 1968  nano djnro/local_settings.py
+ 1969  ./manage.py check
+ 1970  service apache2 restart
+ 1971  ifconfig
+ 1972  tcpdump -i ens18
+ 1973  cd /tmp/
+ 1974  ls
+ 1975  cd /home/bdren/djnro/
+ 1976  ls
+ 1977  cd edumanage/
+ 1978  ls
+ 1979  nano views.py 
+ 1980  nano viewsextra.py 
+ 1981  exit
+ 1982  cd djnro/
+ 1983  python manage.py check
+ 1984  source wsgi_venv/bin/activate
+ 1985  ./manage.py check
+ 1986  ./manage.py servdata
+ 1987  exit
+ 1988  cd /tmp/
+ 1989  ls
+ 1990  exit
+ 1991  certbot renew
+ 1992  less /var/log/letsencrypt/letsencrypt.log
+ 1993  certbot renew
+ 1994  ping acme-v02.api.letsencrypt.org
+ 1995  certbot renew
+ 1996  history > history.txt
